@@ -2,7 +2,7 @@ import "./styles.css";
 
 function SayHello({ firstName, lastName }) {
   return (
-    <div>
+    <div className="sayHello">
       Hello {firstName} {lastName}
     </div>
   );
@@ -10,7 +10,7 @@ function SayHello({ firstName, lastName }) {
 
 function CharacterCount({ text }) {
   return (
-    <div className="container">
+    <div className="charCount">
       {`Text:  `}
       <i>{` "${text}"`}</i>
       {" has "}
