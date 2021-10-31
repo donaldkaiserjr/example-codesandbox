@@ -1,5 +1,9 @@
 import "./styles.css";
 
+const element = document.createElement("div");
+element.textContent = "Hello World";
+element.className = "container";
+
 export default function App() {
   return (
     <div className="App">
