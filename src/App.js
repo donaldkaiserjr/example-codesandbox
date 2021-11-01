@@ -36,26 +36,24 @@ const element = (
     <CharacterCount text={"Nate is here"} />
     <CharacterCount text={"Jason went home"} />
     <CharacterCount text={"Never plug that in"} />
-    <Box
-      size="large"
-      style={{ backgroundColor: "purple" }}
-      className="container"
-    >
-      {" "}
-      Good Evening
-    </Box>
-    <Box style={{ backgroundColor: "skyblue" }} size="large">
-      {" "}
-      Good Night There Handsome{" "}
-    </Box>
-    <Box style={{ backgroundColor: "skyblue" }} size="medium">
-      {" "}
-      Good Night There Handsome{" "}
-    </Box>
-    <Box style={{ backgroundColor: "skyblue" }} size="small">
-      {" "}
-      Good Night There Handsome{" "}
-    </Box>
+    <div className="container">
+      <Box size="large" style={{ backgroundColor: "purple" }}>
+        {" "}
+        Good Evening
+      </Box>
+      <Box style={{ backgroundColor: "skyblue" }} size="large">
+        {" "}
+        Good Night There{" "}
+      </Box>
+      <Box style={{ backgroundColor: "skyblue" }} size="medium">
+        {" "}
+        Good Day{" "}
+      </Box>
+      <Box style={{ backgroundColor: "skyblue" }} size="small">
+        {" "}
+        Good Night{" "}
+      </Box>
+    </div>
   </>
 );
 
