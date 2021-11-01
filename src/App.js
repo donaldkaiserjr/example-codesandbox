@@ -1,13 +1,6 @@
 import "./styles.css";
 import Box from "./boxes";
-
-function SayHello({ firstName, lastName }) {
-  return (
-    <div className="sayHello">
-      Hello {firstName} {lastName}
-    </div>
-  );
-}
+import SayHello from "./sayHello";
 
 function CharacterCount({ text }) {
   return (
