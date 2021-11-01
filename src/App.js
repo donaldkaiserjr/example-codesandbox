@@ -1,18 +1,7 @@
 import "./styles.css";
 import Box from "./boxes";
 import SayHello from "./sayHello";
-
-function CharacterCount({ text }) {
-  return (
-    <div className="charCount">
-      {`The sentence:  `}
-      <i>{` "${text}"`}</i>
-      {" has "}
-      {text.length ? <strong>{text.length}</strong> : "No"}
-      {" characters"}
-    </div>
-  );
-}
+import CharacterCount from "./charCount";
 
 const element = (
   <>
