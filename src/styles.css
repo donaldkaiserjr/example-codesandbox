@@ -8,10 +8,10 @@
 }
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: flex-end;
+  align-content: center;
 }
 .sayHello {
   font-size: 24px;
