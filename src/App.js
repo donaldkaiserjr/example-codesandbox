@@ -3,6 +3,7 @@ import Box from "./boxes";
 import SayHello from "./sayHello";
 import CharacterCount from "./charCount";
 import Greeting from "./greeting";
+import Greeting2 from "./greeting2";
 
 const element = (
   <>
@@ -27,6 +28,7 @@ const element = (
         Good Night{" "}
       </Box>
       <Greeting />
+      <Greeting2 />
     </div>
   </>
 );
