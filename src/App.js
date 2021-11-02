@@ -16,7 +16,7 @@ const element = (
       </Box>
       <Box style={{ backgroundColor: "skyblue" }} size="large">
         {" "}
-        Good Night There{" "}
+        Good Night{" "}
       </Box>
       <Box style={{ backgroundColor: "skyblue" }} size="medium">
         {" "}
