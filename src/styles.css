@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
+  margin-top: 50px;
 }
 .sayHello {
   font-size: 24px;
@@ -42,4 +43,12 @@
 .box--small {
   width: 90px;
   height: 90px;
+}
+
+.firstname {
+  margin-top: 25px;
+}
+
+.lastname {
+  margin-top: 25px;
 }

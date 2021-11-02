@@ -4,7 +4,7 @@ export default function Greeting() {
   const [state, setState] = React.useState("");
   const handleChange = (event) => setState(event.target.value);
   return (
-    <div>
+    <div className="firstname">
       <form>
         <label htmlFor="Name">Name:</label>
         <input onChange={handleChange} id="name" />

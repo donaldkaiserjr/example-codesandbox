@@ -4,6 +4,7 @@ import SayHello from "./sayHello";
 import CharacterCount from "./charCount";
 import Greeting from "./greeting";
 import Greeting2 from "./greeting2";
+import UsernameForm from "./basic-form";
 
 const element = (
   <>
@@ -29,6 +30,7 @@ const element = (
       </Box>
       <Greeting />
       <Greeting2 />
+      <UsernameForm />
     </div>
   </>
 );
