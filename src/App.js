@@ -5,6 +5,7 @@ import CharacterCount from "./charCount";
 import Greeting from "./greeting";
 import Greeting2 from "./greeting2";
 import UsernameForm from "./basic-form";
+import UsernameForm2 from "./dynamic-form";
 
 const element = (
   <>
@@ -31,6 +32,7 @@ const element = (
       <Greeting />
       <Greeting2 />
       <UsernameForm />
+      <UsernameForm2 />
     </div>
   </>
 );

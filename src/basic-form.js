@@ -1,7 +1,7 @@
 export default function UsernameForm() {
   function handleSubmit(event) {
-    event.preventDefault();
-    const username = event.target.value;
+    event.preventDefault(); // this stops a full-page refresh
+    const username = event.target.elements.usernameInput.value;
     alert(`You entered: ${username}`);
   }
 
