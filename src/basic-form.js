@@ -2,7 +2,7 @@ export default function UsernameForm() {
   function handleSubmit(event) {
     event.preventDefault();
     const username = event.target.elements.usernameInput.value;
-    alert(`You entered: ${username}`);
+    alert(username ? `You entered: ${username}` : "Please enter a username");
   }
 
   return (
