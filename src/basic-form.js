@@ -1,6 +1,6 @@
 export default function UsernameForm() {
   function handleSubmit(event) {
-    event.preventDefault(); // this stops a full-page refresh
+    event.preventDefault();
     const username = event.target.elements.usernameInput.value;
     alert(`You entered: ${username}`);
   }
@@ -9,7 +9,7 @@ export default function UsernameForm() {
     <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="usernameInput">Username:</label>
-        <input id="usernameInput" placeholder="Enter Username" type="text" />
+        <input id="usernameInput" placeholder="Enter a username" type="text" />
       </div>
       <button type="submit">Submit</button>
     </form>
