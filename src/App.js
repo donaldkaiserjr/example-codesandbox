@@ -6,6 +6,7 @@ import Greeting from "./greeting";
 import Greeting2 from "./greeting2";
 import UsernameForm from "./basic-form";
 import UsernameForm2 from "./dynamic-form";
+import FruitApp from "./fruitApp";
 
 const element = (
   <>
@@ -33,6 +34,7 @@ const element = (
       <Greeting2 />
       <UsernameForm />
       <UsernameForm2 />
+      <FruitApp />
     </div>
   </>
 );

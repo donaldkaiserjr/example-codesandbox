@@ -24,7 +24,7 @@ export default function UsernameForm2() {
           className="input"
         />
       </div>
-      <button className="btn" type="submit">
+      <button className="btn__text" type="submit">
         Submit
       </button>
     </form>

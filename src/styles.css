@@ -1,3 +1,6 @@
+/* BEM Convention reminder 
+https://css-tricks.com/bem-101/ */
+
 .App {
   display: flex;
   flex-direction: column;
