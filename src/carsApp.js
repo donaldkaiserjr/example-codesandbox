@@ -10,7 +10,7 @@ const allItems = [
   { id: "4414", value: "ford" }
 ];
 
-function CarsApp() {
+export default function CarsApp() {
   const [items, setItems] = React.useState(allItems);
 
   function addItem() {
@@ -27,6 +27,7 @@ function CarsApp() {
         type="button"
         disabled={items.length >= allItems.length}
         onClick={addItem}
+        className="btn btn--orange"
       >
         add item
       </button>
