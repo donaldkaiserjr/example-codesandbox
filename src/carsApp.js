@@ -20,7 +20,6 @@ export default function CarsApp() {
   function removeItem(item) {
     setItems(items.filter((i) => i !== item));
   }
-
   return (
     <div>
       <button
