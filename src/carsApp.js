@@ -33,7 +33,9 @@ export default function CarsApp() {
       <ul style={{ listStyle: "none", paddingLeft: 0 }}>
         {items.map((item) => (
           <li key={item.id}>
-            <button onClick={() => removeItem(item)}>remove</button>{" "}
+            <button className="removebtn" onClick={() => removeItem(item)}>
+              remove
+            </button>{" "}
             <label htmlFor={`${item.value}-input`}>{item.value}</label>{" "}
             <input id={`${item.value}-input`} defaultValue={item.value} />
           </li>
