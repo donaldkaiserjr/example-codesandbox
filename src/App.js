@@ -10,9 +10,11 @@ import FruitApp from "./fruitApp";
 import CarsApp from "./carsApp";
 import NameAnimalApp from "./nameAnimal";
 import FocusDemo from "./focusDemo";
+import Tick from "./timeDate";
 
 const element = (
   <>
+    <Tick />
     <FocusDemo />
     <SayHello firstName={"Anthony"} lastName={"Phillips"} />
     <SayHello firstName={"Jason"} lastName={"Muzzo"} />

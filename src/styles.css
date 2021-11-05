@@ -84,3 +84,29 @@ https://css-tricks.com/bem-101/ */
   font-weight: bold;
   font-size: 18px;
 }
+
+.datetime {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.time {
+  background-color: darkmagenta;
+  color: #fff;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  border: 5px solid salmon;
+}
+
+.date {
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  border: 5px solid darkmagenta;
+}

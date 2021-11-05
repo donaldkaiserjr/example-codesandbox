@@ -3,7 +3,7 @@ export default function Tick() {
   const date = new Date().toDateString();
 
   return (
-    <div className="container">
+    <div className="datetime">
       <input value={time} className="time" />
       <input value={date} className="date" />
       <input value={time} className="time" />
