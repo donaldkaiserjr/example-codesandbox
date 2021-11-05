@@ -11,6 +11,8 @@ import CarsApp from "./carsApp";
 
 const element = (
   <>
+    <SayHello firstName={"Anthony"} lastName={"Phillips"} />
+    <SayHello firstName={"Jason"} lastName={"Muzzo"} />
     <CharacterCount text={"Nate is here"} />
     <CharacterCount text={"Jason went home"} />
     <CharacterCount text={"Never plug that in"} />
@@ -42,10 +44,5 @@ const element = (
 );
 
 export default function App() {
-  return (
-    <div className="App">
-      <SayHello firstName={"Anthony"} lastName={"Phillips"} />
-      <h2>{element}</h2>
-    </div>
-  );
+  return <div className="App">{element}</div>;
 }
