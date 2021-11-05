@@ -8,6 +8,7 @@ import UsernameForm from "./basic-form";
 import UsernameForm2 from "./dynamic-form";
 import FruitApp from "./fruitApp";
 import CarsApp from "./carsApp";
+import NameAnimalApp from "./nameAnimal";
 
 const element = (
   <>
@@ -39,6 +40,7 @@ const element = (
       <UsernameForm2 />
       <FruitApp />
       <CarsApp />
+      <NameAnimalApp />
     </div>
   </>
 );
