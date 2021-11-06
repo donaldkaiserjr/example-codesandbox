@@ -17,28 +17,36 @@ const element = (
   <>
     <div className="contacts">
       <ContactCard
-        name="Mr. Whiskerson"
-        imgUrl="http://placekitten.com/250/250"
-        phone="(212) 555-1234"
-        email="mr.whiskaz@catnap.meow"
+        contact={{
+          name: "Mr. Whiskerson",
+          imgUrl: "http://placekitten.com/300/300",
+          phone: "(212) 555-1234",
+          email: "cattyclaw@catnap.meow"
+        }}
       />
       <ContactCard
-        name="Fluffykins"
-        imgUrl="http://placekitten.com/400/200"
-        phone="(212) 555-2324"
-        email="mr.whiskaz@catnap.meow"
+        contact={{
+          name: "Big Poo",
+          imgUrl: "http://placekitten.com/250/250",
+          phone: "(212) 555-3334",
+          email: "dattyCalm@catnap.meow"
+        }}
       />
       <ContactCard
-        name="Oscar Baby"
-        imgUrl="http://placekitten.com/400/300"
-        phone="(212) 555-2344"
-        email="oscar@catnap.meow"
+        contact={{
+          name: "Creamy Cake",
+          imgUrl: "http://placekitten.com/300/250",
+          phone: "(212) 555-2221",
+          email: "creamycakes@catnap.meow"
+        }}
       />
       <ContactCard
-        name="Peanut"
-        imgUrl="http://placekitten.com/300/300"
-        phone="(212) 555-1234"
-        email="peanut.cookie@catnap.meow"
+        contact={{
+          name: "Nippy",
+          imgUrl: "http://placekitten.com/350/250",
+          phone: "(212) 555-7994",
+          email: "Nippytheman@catnap.meow"
+        }}
       />
     </div>
     <Tick />
