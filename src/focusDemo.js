@@ -13,7 +13,7 @@ export default function FocusDemo() {
       setItems(shuffle(items));
     }, 1000);
     return () => clearInterval(interval);
-  }, []);
+  }, [items]);
 
   return (
     <div>

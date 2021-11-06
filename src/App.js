@@ -11,9 +11,36 @@ import CarsApp from "./carsApp";
 import NameAnimalApp from "./nameAnimal";
 import FocusDemo from "./focusDemo";
 import Tick from "./timeDate";
+import ContactCard from "./ContactCard";
 
 const element = (
   <>
+    <div className="contacts">
+      <ContactCard
+        name="Mr. Whiskerson"
+        imgUrl="http://placekitten.com/250/250"
+        phone="(212) 555-1234"
+        email="mr.whiskaz@catnap.meow"
+      />
+      <ContactCard
+        name="Fluffykins"
+        imgUrl="http://placekitten.com/400/200"
+        phone="(212) 555-2324"
+        email="mr.whiskaz@catnap.meow"
+      />
+      <ContactCard
+        name="Oscar Baby"
+        imgUrl="http://placekitten.com/400/300"
+        phone="(212) 555-2344"
+        email="oscar@catnap.meow"
+      />
+      <ContactCard
+        name="Peanut"
+        imgUrl="http://placekitten.com/300/300"
+        phone="(212) 555-1234"
+        email="peanut.cookie@catnap.meow"
+      />
+    </div>
     <Tick />
     <FocusDemo />
     <SayHello firstName={"Anthony"} lastName={"Phillips"} />
