@@ -17,22 +17,22 @@ export default function FocusDemo() {
 
   return (
     <div>
-      <div>
+      {/* <div>
         <h1>Without Key</h1>
         {items.map((item) => (
           <input value={item.value} />
         ))}
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <h1>With Key as Index</h1>
         {items.map((item, index) => (
           <input key={index} value={item.value} />
         ))}
-      </div>
+      </div> */}
       <div>
         <h1>With Key</h1>
         {items.map((item) => (
-          <input key={item.id} value={item.value} />
+          <input key={item.id} value={item.value} onChange="" />
         ))}
       </div>
     </div>
