@@ -19,21 +19,6 @@ import JokesData from "./jokesData";
 const element = (
   <>
     <div className="contacts">
-      <Joke punchLine="  It's hard to explain puns to kleptomaniacs because they always take things literally." />
-      <Joke
-        question="  What is big an ugly yet small and pretty at the same time"
-        punchLine="  It's hard to explain puns to kleptomaniacs because they always take things literally."
-      />
-      <Joke
-        question="  What's the best thing about Switzerland?"
-        punchLine=" It's hard to explain puns to kleptomaniacs because they always take things literally."
-      />
-      <Joke punchLine=" This is just a test joke to see if the app is working correctly." />
-      <Joke
-        question=" What's the best thing about Switzerland?"
-        punchLine=" It's hard to explain puns to kleptomaniacs because they always take things literally."
-      />
-
       <ContactCard
         contact={{
           name: "Mr. Whiskerson",
