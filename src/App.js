@@ -28,12 +28,7 @@ const element = (
         question="  What's the best thing about Switzerland?"
         punchLine=" It's hard to explain puns to kleptomaniacs because they always take things literally."
       />
-      <Joke
-        information={{
-          punchLine:
-            " It's hard to explain puns to kleptomaniacs because they always take things literally."
-        }}
-      />
+      <Joke punchLine=" This is just a test joke to see if the app is working correctly." />
       <Joke
         question=" What's the best thing about Switzerland?"
         punchLine=" It's hard to explain puns to kleptomaniacs because they always take things literally."
