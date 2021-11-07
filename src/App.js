@@ -9,13 +9,15 @@ import UsernameForm2 from "./dynamic-form";
 import FruitApp from "./fruitApp";
 import CarsApp from "./carsApp";
 import NameAnimalApp from "./nameAnimal";
-import FocusDemo from "./focusDemo";
-import Tick from "./timeDate";
+import Multiply from "./curry";
+// import FocusDemo from "./focusDemo";
+// import Tick from "./timeDate";
 import ContactCard from "./ContactCard";
 
 const element = (
   <>
     <div className="contacts">
+      <Multiply />
       <ContactCard
         contact={{
           name: "Mr. Whiskerson",
@@ -49,8 +51,8 @@ const element = (
         }}
       />
     </div>
-    <Tick />
-    <FocusDemo />
+    {/* <Tick /> */}
+    {/* <FocusDemo /> */}
     <SayHello firstName={"Anthony"} lastName={"Phillips"} />
     <SayHello firstName={"Jason"} lastName={"Muzzo"} />
     <CharacterCount text={"Nate is here"} />
