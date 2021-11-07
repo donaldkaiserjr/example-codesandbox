@@ -15,6 +15,8 @@ import NameAnimalApp from "./nameAnimal";
 import ContactCard from "./ContactCard";
 import Joke from "./Joke";
 import JokesData from "./jokesData";
+import productsData from "./vschoolProducts";
+import Product from "./Product";
 
 const element = (
   <>
@@ -92,10 +94,15 @@ export default function App() {
     <Joke key={joke.id} question={joke.question} punchLine={joke.punchLine} />
   ));
 
+  const productComponents = productsData.map((item) => (
+    <Product product={item} />
+  ));
+
   return (
     <div className="App">
       {element}
       {jokeComponents}
+      {productComponents}
     </div>
   );
 }
