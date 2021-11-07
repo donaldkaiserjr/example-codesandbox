@@ -13,11 +13,45 @@ import Multiply from "./curry";
 // import FocusDemo from "./focusDemo";
 // import Tick from "./timeDate";
 import ContactCard from "./ContactCard";
+import Joke from "./Joke";
 
 const element = (
   <>
     <div className="contacts">
-      <Multiply />
+      <Joke
+        information={{
+          question: "What's the best thing about Switzerland?",
+          punchLine:
+            "It's hard to explain puns to kleptomaniacs because they always take things literally."
+        }}
+      />
+      <Joke
+        information={{
+          question: "What is big an ugly yet small and pretty at the same time"
+        }}
+      />
+      <Joke
+        information={{
+          question: "What's the best thing about Switzerland?",
+          punchLine:
+            "It's hard to explain puns to kleptomaniacs because they always take things literally."
+        }}
+      />
+      <Joke
+        information={{
+          question: "What's the best thing about Switzerland?",
+          punchLine:
+            "It's hard to explain puns to kleptomaniacs because they always take things literally."
+        }}
+      />
+      <Joke
+        information={{
+          question: "What's the best thing about Switzerland?",
+          punchLine:
+            "It's hard to explain puns to kleptomaniacs because they always take things literally."
+        }}
+      />
+
       <ContactCard
         contact={{
           name: "Mr. Whiskerson",
