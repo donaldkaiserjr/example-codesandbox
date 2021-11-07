@@ -9,47 +9,34 @@ import UsernameForm2 from "./dynamic-form";
 import FruitApp from "./fruitApp";
 import CarsApp from "./carsApp";
 import NameAnimalApp from "./nameAnimal";
-import Multiply from "./curry";
+// import Multiply from "./curry";
 // import FocusDemo from "./focusDemo";
 // import Tick from "./timeDate";
 import ContactCard from "./ContactCard";
 import Joke from "./Joke";
+import JokesData from "./jokesData";
 
 const element = (
   <>
     <div className="contacts">
+      <Joke punchLine="  It's hard to explain puns to kleptomaniacs because they always take things literally." />
       <Joke
-        information={{
-          question: "What's the best thing about Switzerland?",
-          punchLine:
-            "It's hard to explain puns to kleptomaniacs because they always take things literally."
-        }}
+        question="  What is big an ugly yet small and pretty at the same time"
+        punchLine="  It's hard to explain puns to kleptomaniacs because they always take things literally."
+      />
+      <Joke
+        question="  What's the best thing about Switzerland?"
+        punchLine=" It's hard to explain puns to kleptomaniacs because they always take things literally."
       />
       <Joke
         information={{
-          question: "What is big an ugly yet small and pretty at the same time"
+          punchLine:
+            " It's hard to explain puns to kleptomaniacs because they always take things literally."
         }}
       />
       <Joke
-        information={{
-          question: "What's the best thing about Switzerland?",
-          punchLine:
-            "It's hard to explain puns to kleptomaniacs because they always take things literally."
-        }}
-      />
-      <Joke
-        information={{
-          question: "What's the best thing about Switzerland?",
-          punchLine:
-            "It's hard to explain puns to kleptomaniacs because they always take things literally."
-        }}
-      />
-      <Joke
-        information={{
-          question: "What's the best thing about Switzerland?",
-          punchLine:
-            "It's hard to explain puns to kleptomaniacs because they always take things literally."
-        }}
+        question=" What's the best thing about Switzerland?"
+        punchLine=" It's hard to explain puns to kleptomaniacs because they always take things literally."
       />
 
       <ContactCard
@@ -121,5 +108,14 @@ const element = (
 );
 
 export default function App() {
-  return <div className="App">{element}</div>;
+  const jokeComponents = JokesData.map((joke) => (
+    <Joke key={joke.id} question={joke.question} punchLine={joke.punchLine} />
+  ));
+
+  return (
+    <div className="App">
+      {element}
+      {jokeComponents}
+    </div>
+  );
 }
