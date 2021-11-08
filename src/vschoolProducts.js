@@ -36,6 +36,13 @@ const productsData = [
     price: 3.5,
     description:
       "Why take a bath alone when you can have rubber duckes take one with you?"
+  },
+  {
+    id: "7",
+    name: "Backpack",
+    price: 14.99,
+    description:
+      "Stylish black backpack that has 4 sections and room for your liquid containers. "
   }
 ];
 
