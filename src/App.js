@@ -95,7 +95,7 @@ export default function App() {
   ));
 
   const productComponents = productsData.map((item) => (
-    <Product product={item} />
+    <Product key={item.id} product={item} />
   ));
 
   return (
