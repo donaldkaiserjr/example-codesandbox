@@ -17,6 +17,8 @@ import Joke from "./Joke";
 import JokesData from "./jokesData";
 import productsData from "./vschoolProducts";
 import Product from "./Product";
+import todosData from "./todosData";
+import TodoItem from "./TodoItem";
 
 const element = (
   <>
@@ -98,11 +100,18 @@ export default function App() {
     <Product key={item.id} product={item} />
   ));
 
+  const todoItems = todosData.map((item) => (
+    <TodoItem key={item.id} text={item.text} completed={item.completed} />
+  ));
+
   return (
     <div className="App">
+      {/* <div className="todo-list">
+      </div> */}
       {element}
       {jokeComponents}
       {productComponents}
+      {todoItems}
     </div>
   );
 }
