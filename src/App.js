@@ -101,7 +101,7 @@ export default function App() {
   ));
 
   const todoItems = todosData.map((item) => (
-    <TodoItem key={item.id} text={item.text} completed={item.completed} />
+    <TodoItem key={item.id} item={item} />
   ));
 
   return (

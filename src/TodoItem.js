@@ -3,8 +3,8 @@ import React from "react";
 function TodoItem(props) {
   return (
     <div className="todo-item">
-      <input type="checkbox" />
-      <div>{props.text}</div>
+      <input type="checkbox" checked={props.item.completed} />
+      <div>{props.item.text}</div>
       <hr />
     </div>
   );
